@@ -1,0 +1,41 @@
+/**
+ * All of the CSS for public-facing functionality
+ * included in this file.
+ */
+
+ #vicso__conter-wrapper ul{
+    font-family: 'Cormorant Infant', serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: left;
+    color: #1B1B1B;
+    margin-bottom: 9px;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: grid;
+    width: 295px;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 43px;
+}
+
+.vicso__data-value-item-description{
+    color: #515151;
+    font-size: 14px;
+}
+
+.vicso__data-value-item{
+    position: relative;
+    padding-left: 15px;
+}
+
+.vicso__data-value-item::before{
+    content: "";
+    position: absolute;
+    height: 55px;
+    top: 15px;
+    background-color: #BDBDBD;
+    width: 1px;
+    left: 0;
+}
